@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+:root {
+    --cor1:#050866;
+    --cor2:#090FB3;
+    --cor3:#0B13E6;
+    --cor4:#242666;
+    --cor5:#5257EA;
+    --cor6:rgb(1, 2, 59);
+    --cor7:rgb(100, 100, 100);
+
+    --font-padrao:arial, verdana, helvetica, sans-serif;
+    --font-destak:arial, verdana, helvetica, sans-serif;
+}
+* {
+    margin: 0%;
+    padding: 0%; 
+}
+
+header {
+    background: linear-gradient(var(--cor5), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding: 0px 0px 0px 0px
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1 {
+    /* background-color: var(--cor4); */
+    font-size: 5em;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 6rem;
+}
+
+#logo {
+    /* display: flex; */
+    height: auto;
+    width: 12%;
+    position: relative;
+    bottom: 5rem;
+    left: 41%;
+    z-index: 1;
+    justify-content: center;
+}
+
+header > nav {
+    background-color: var(--cor4);
+    font: 1.2em;
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 100vw;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+#home {
+    background-color: #5257ea71;
+}
+
+#home:hover {
+    background-color: #5257EA;
+}
+nav a:hover{
+    background-color:var(--cor5);
+}
+
+body {
+   background: linear-gradient(var(--cor4), var(--cor5)); 
+   margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    min-height: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+   margin: 15px 0px; 
+   display: block;
+   text-align: justify;
+   text-indent: 30px;
+   line-height: 1.3em; /* Espaçamento das linhas */
+   font-size: 1.3em;
+   color: var(--cor6);
+   max-width: 80%;
+   padding-left: 10%;
+}
+
+#foguete_img {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    padding: 3%;
+}
+
+.imagensTerra {
+    /* height: 10vh;
+    width: 20vw; */
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+  
+}
+
+main h1 {
+    font-size: 3em;
+    color: var(--cor6);
+    padding-bottom: 5%;
+    text-align: justify;
+    padding: 2% 5% 4% 5%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+main h2 {
+    color: var(--cor6);
+    text-indent: 5%;
+    font-size: 2em;
+    background: linear-gradient(to right, #5257ea73, transparent);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: var(--cor7);
+    font-size: 1.2em;
+    text-indent: 5%;
+} 
+
+.video {
+    background-color: #5257EA;
+    margin: 30px 16% 0px;
+    padding: 3% 6%;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
